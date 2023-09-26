@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h2{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.table{
+    width: 80%;
+    margin-left: 10%;
+    border-collapse: collapse;
+}
+td, th {
+    border-top: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    font-size: 17px;
+}
+tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+i{
+    margin-right: 5px;
+}
+.view-btn{
+    font-size: 15px;
+    background-color: #3300ff;
+    color: #ffff;
+    border-radius: 10%;
+    border: none;
+    padding: 3%;
+}
+.edit-btn{
+    font-size: 15px;
+    background-color: #ffae00;
+    color: #ffff;
+    border-radius: 10%;
+    border: none;
+    padding: 3%;
+}
+.delete-btn{
+    font-size: 15px;
+    background-color: #ff0202;
+    color: #ffff;
+    border-radius: 10%;
+    border: none;
+    padding: 3%;
+}
+.add-btn{
+    margin-left: 10%;
+    margin-top: 3%;
+    padding: 1% 2%;
+    background-color: #32CD32;
+    color: #fff;
+    border: none;
+    border-radius: 5%;
+}
